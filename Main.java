@@ -118,7 +118,7 @@ class Main{
 				System.out.println("Enter the elements of the array: ");
 				k1=inp.inputArray(v);
 				double var= calc.arvar(k1, v);
-				System.out.println("\nThe Standard Deviation of the array is "+Math.sqrt(var));
+				System.out.println("\nThe Standard Deviation of the array is: "+Math.sqrt(var));
 				break;
 			}
 			default:{
